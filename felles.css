@@ -1,0 +1,22 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+            display: block;
+            aspect-ratio: 1/1;
+        }
+
+        body{
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        :root{
+            --clr-light: #93e4c1;     
+            --clr-main: #3baea0;
+            --clr-dark: #118a7e;
+            --clr-darkest: #1f6f78;  
+        }

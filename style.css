@@ -17,7 +17,7 @@ img{
 }
 
 header{
-    background-color: var(--clr-light);
+    background-color: var(--clr-dark);
 }
 
 h1{
@@ -44,9 +44,9 @@ ul{
 }
 
 nav a{
-    color: black;
+    color: var(--clr-light);
     text-decoration: none;
-    border: solid rgb(130, 181, 228) 2px;
+    border: solid var(--clr-light);
     border-radius: 999px;
     padding: 9px;
 
@@ -54,8 +54,8 @@ nav a{
 
 nav a:hover{
     color: aliceblue;
-    transition: 300ms;
-    background-color: rgb(130, 181, 228);    
+    transition: 500ms;
+    background-color: var(--clr-main);    
 }
 
 main{

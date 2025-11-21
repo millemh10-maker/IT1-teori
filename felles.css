@@ -20,3 +20,45 @@
             --clr-dark: #118a7e;
             --clr-darkest: #1f6f78;  
         }
+
+        header{
+    background-color: var(--clr-light);
+}
+
+h1{
+    align-items: center;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+
+    min-height: 100px;
+    padding: 20px;
+    
+}
+
+ul{
+    display: flex;
+    gap: 70px;
+    font-size: 18px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    border: solid var(--clr-main);
+    border-radius: 999px;
+    padding: 9px;
+
+}
+
+nav a:hover{
+    color: aliceblue;
+    transition: 500ms;
+    background-color: var(--clr-main);    
+}

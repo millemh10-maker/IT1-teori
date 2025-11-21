@@ -1,4 +1,4 @@
- *{
+        *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -20,3 +20,4 @@
             --clr-dark: #118a7e;
             --clr-darkest: #1f6f78;  
         }
+        

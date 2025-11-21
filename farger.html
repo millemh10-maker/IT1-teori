@@ -8,48 +8,75 @@
     <link rel="stylesheet" href="felles.css">
 
     <style>
-       
-
-
-
         .grid-section{
-            background-color: var(--clr-light);
+            display: grid;
             grid-template-columns: 1fr 1fr;
-            
+            row-gap: 100px;
+
+        }
+        @media(width < 600px){
+            .grid-section{
+                grid-template-columns: 1fr;
+            }
         }
         main{
-            flex-grow: 1;
+            min-height: 80vh;
+            background-color: var(--clr-light);
 
         }
         .info{
-
+            padding: 20px;
         }
         footer{
             background-color: var(--clr-main);
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            font-size: 20px;
+        }
+        h1{
+            text-align: center;
+            font-size: 50px;
+            
+            
+        }
+        h3{
+            font-size: 35px;
+            color: var(--clr-darkest);
+        }
+        nav{
             height: 10vh;
         }
     </style>
 </head>
 <body>
     <nav>
-
+        <h1>dette er nav</h1>
     </nav>
 
     <main>
         <h1>Bilder</h1>
         <div class="grid-section">
             <div class="info">
-                <h3>Tittel</h3>
+                <h3>Bildepunkter</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat ut ipsam sed consequatur voluptate. Veniam minus saepe sapiente deleniti, commodi quam dolore quasi sequi quo eaque quas. Nihil, dignissimos nemo?</p>
             </div>
             <div class="info">
-                <h3>Tittel</h3>
+                <h3>Lagring og Minne</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat ut ipsam sed consequatur voluptate. Veniam minus saepe sapiente deleniti, commodi quam dolore quasi sequi quo eaque quas. Nihil, dignissimos nemo?</p>
             </div>
             <div class="info">
-                <h3>Tittel</h3>
+                <h3>RGB</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat ut ipsam sed consequatur voluptate. Veniam minus saepe sapiente deleniti, commodi quam dolore quasi sequi quo eaque quas. Nihil, dignissimos nemo?</p>
             </div>
+            <div class="info">
+                <h3>Kompresjon</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat ut ipsam sed consequatur voluptate. Veniam minus saepe sapiente deleniti, commodi quam dolore quasi sequi quo eaque quas. Nihil, dignissimos nemo?</p>
+            </div>
+
 
             
 

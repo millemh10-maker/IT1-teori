@@ -17,7 +17,7 @@ img{
 }
 
 header{
-    background-color: var(--clr-light);
+    background-color: var(--clr-dark);
 }
 
 h1{
@@ -44,9 +44,9 @@ ul{
 }
 
 nav a{
-    color: black;
+    color: var(--clr-light);
     text-decoration: none;
-    border: solid var(--clr-main);
+    border: solid var(--clr-light);
     border-radius: 999px;
     padding: 9px;
 
